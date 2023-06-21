@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Samsun"
+        tools:targetApi="31">
+        <activity
+            android:name=".MandaKaymakliLokum"
+            android:exported="false" />
+        <activity
+            android:name=".Paluze"
+            android:exported="false" />
+        <activity
+            android:name=".KocakariGerdaniTatlisi"
+            android:exported="false" />
+        <activity
+            android:name=".Nokul"
+            android:exported="false" />
+        <activity
+            android:name=".CerkezTavugu"
+            android:exported="false" />
+        <activity
+            android:name=".MantarliPilav"
+            android:exported="false" />
+        <activity
+            android:name=".Buryan"
+            android:exported="false" />
+        <activity
+            android:name=".KazTiridi"
+            android:exported="false" />
+        <activity
+            android:name=".BafraPidesi"
+            android:exported="false" />
+        <activity
+            android:name=".BandirmaVapuru"
+            android:exported="false" />
+
+        <activity
+            android:name=".Kevser_Camii"
+            android:exported="false" />
+        <activity
+            android:name=".Havza_Ataturk_Evi_Muzesi"
+            android:exported="false" />
+        <activity
+            android:name=".Tarihi_Carsamba_Evi"
+            android:exported="false" />
+        <activity
+            android:name=".Carsamba_Bedesteni"
+            android:exported="false" />
+        <activity
+            android:name=".Carsamba_Tarihi_Kopru"
+            android:exported="false" />
+        <activity
+            android:name=".Batik_Minare"
+            android:exported="false" />
+        <activity
+            android:name=".Cetinkaya_Koprusu"
+            android:exported="false" />
+        <activity
+            android:name=".Gazi_Muzesi"
+            android:exported="false" />
+        <activity
+            android:name=".Bafra_Muzesi"
+            android:exported="false" />
+        <activity
+            android:name=".Asarkale_Kaya_Mezarlari"
+            android:exported="false" />
+        <activity
+            android:name=".Tatlilar"
+            android:exported="false" />
+        <activity
+            android:name=".Yemekler"
+            android:exported="false" />
+        <activity
+            android:name=".TarihiYerler"
+            android:exported="false" />
+        <activity
+            android:name=".Tarihce"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
